@@ -41,7 +41,7 @@ paadcr_auth()
 
 ## Usage
 
-Get the raw json from every week.
+Get the raw json for every week (1st week: 4-10th January 2021)
 
 ``` r
 ## Get week 1 data
