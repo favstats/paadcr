@@ -23,3 +23,5 @@ Imports:
     tibble,
     tidyr,
     purrr
+URL: https://github.com/favstats/paadcr
+BugReports: https://github.com/favstats/paadcr/issues
