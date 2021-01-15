@@ -66,7 +66,7 @@ paadcr_week(2)
 Get parsed data as rectangular data frame with each row being one timeline item:
 
 ```{r}
-paadcr_week(1, clean = T)
+out <- paadcr_week(1, clean = T)
 
 ```
 

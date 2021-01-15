@@ -23,6 +23,11 @@ paadcr_auth <- function(user, pw) {
         pw <- rstudioapi::askForPassword("Please type in your password:")
     }
 
+    if(is.null(user)|is.null(pw)){
+        warning("You didn't specify a password or user.")
+        return(invisible())
+    }
+
     set_renv(PAADC_USER = user)
     set_renv(PAADC_PW = pw)
 
